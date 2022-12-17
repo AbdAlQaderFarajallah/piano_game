@@ -72,6 +72,7 @@ class _MyState extends State<My> {
           ),
         ],
       ),
+      //
       body: Center(
         child: InteractivePiano(
           highlightedNotes: [NotePosition(note: Note.C, octave: 3)],
